@@ -13,7 +13,7 @@ const Exercise3 = () => {
         };
         return (<div className="text-center mt-5">
             <>
-            <p>Button has been clicked: {count} </p>
+            <p>Button has been clicked: {count} times </p>
             <button onClick={()=> setCount (count+1)}>Click Me</button>
             </>
         </div>
